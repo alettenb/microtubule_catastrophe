@@ -1,11 +1,14 @@
 - script:
-  name: script1.py
+  name: Walkthrough.ipynb
   desc: >
     Super fancy script which calcualate some complicated stuff with
     well-documented code.
+
 - script:
-  name: script2.py
+  name: microtubule_analysis_package.zip
   desc: >
-    Yet another script that does something-or-other.
+    A `zip` containing the package used for microtubule analysis. to install,
+    extract and run `pip install -e microtubule_analysis`.
+
 
 
