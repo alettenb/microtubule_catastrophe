@@ -10,14 +10,15 @@
 # ##############################################################################
 - author:
   name: Alex Lettenberger
-  link: "alettenb.github.io"
+  link: "https://alettenb.github.io"
   title: Undergraduate
-  img: alex.jpg
+  img: dr_osophila.jpg
   institute: California Institute of Technology
   other_info:
      Email Address: "alettenb@caltech.edu"
 - author:
   name: Kevin Yu
+  link: "https://en.wikipedia.org/wiki/Drosophila_melanogaster"
   title: Undergraduate
   institute: California Institute of Technology
 
