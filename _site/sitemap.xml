@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>http://localhost:4000/microtubule_catastrophe/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/people</loc>
+<loc>http://localhost:4000/microtubule_catastrophe/people</loc>
 </url>
 <url>
-<loc>http://localhost:4000/code</loc>
+<loc>http://localhost:4000/microtubule_catastrophe/code</loc>
 </url>
 <url>
-<loc>http://localhost:4000/interactive_a</loc>
-</url>
-<url>
-<loc>http://localhost:4000/interactives/interactive_1.html</loc>
+<loc>http://localhost:4000/microtubule_catastrophe/interactives/interactive_1.html</loc>
 <lastmod>2019-12-08T14:39:42-08:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/software_module/microtubule_analysis/microtubule_analysis/confidence_intervals.html</loc>
+<loc>http://localhost:4000/microtubule_catastrophe/software_module/microtubule_analysis/microtubule_analysis/confidence_intervals.html</loc>
 <lastmod>2019-12-07T14:41:05-08:00</lastmod>
 </url>
 </urlset>
