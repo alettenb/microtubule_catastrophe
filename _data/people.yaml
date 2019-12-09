@@ -9,23 +9,19 @@
 # of the `page01_people.md` file.
 # ##############################################################################
 - author:
-  name: Dr. Osophila
-  link: "https://en.wikipedia.org/wiki/Drosophila"
-  title: Postdoctoral Scholar
-  img: dr_osophila.jpg
-  institute: Bicoid Institute of Development
+  name: Alex Lettenberger
+  link: "alettenb.github.io"
+  title: Undergraduate
+  img: alex.jpg
+  institute: California Institute of Technology
   other_info:
-     Email Address: "flyguy@university.edu"
+     Email Address: "alettenb@caltech.edu"
 - author:
-  name: Dr. Melanie O'Gaster
-  link: "https://en.wikipedia.org/wiki/Drosophila_melanogaster"
-  title: Postdoctoral Scholar
-  img: melanogaster.jpg
-  institute: French Flag Research Institute
-  other_info:
-    Current Location: Apple Juice Plates, Inc
+  name: Kevin Yu
+  title: Undergraduate
+  institute: California Institute of Technology
 
 - author:
-  name: Sally Monella
-  title: Research Technician
-  institute: French Flag Research Institute
+  name: Theo Yang
+  title: Undergraduate
+  institute: California Institute of Technology
