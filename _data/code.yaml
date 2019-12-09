@@ -1,8 +1,10 @@
 - script:
   name: Walkthrough.ipynb
   desc: >
-    Super fancy script which calcualate some complicated stuff with
-    well-documented code.
+    A walkthrough of the analysis we did on microtubule catastrophe times.
+    To run, download both datasets and put them into a directory, `data/`,
+    in the same directory as this file. Also, install the `microtubule_analysis`
+    package.
 
 - script:
   name: microtubule_analysis_package.zip
