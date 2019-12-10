@@ -14,47 +14,43 @@ title: >
 authors: >
   Alex Lettenberger, Kevin Yu, and Theo Yang
 Abstract: >
-  This is a general purpose website template for conveying your data, code, and
-  overall scientific story to the general public! See the
-  [GitHub](https://github.com/gchure/reproducible_website) for the actual code
-  used to generate this website, along with lengthy documentation about how to use
-  it. This is meant to be used in tandem with the [GitHub repository template for
-  reproducible research](https://github.com/gchure/reproducible_research). The
-  Rest of this website is filled with dummy text (my favorite, [Hiptser
-  Ipsum](https://hipsum.co/)) for demonstrative purposes. It can even include
-  math like
-
-
-  $$S = k_b\ln \Omega. \tag{1}$$
-
-
-
-  Your abstract goes here.
-  Lorem ipsum dolor amet post-ironic aliquip next level vaporware, dolore
-  yuccie trust fund etsy officia blue bottle distillery ad. Raw denim swag
-  selvage wolf, direct trade air plant reprehenderit you probably haven’t heard
-  of them. Aute craft beer cray, pariatur la croix lumbersexual chillwave
-  fashion axe pug adipisicing woke banh mi. Hammock asymmetrical sustainable
-  keffiyeh biodiesel. Banjo trust fund leggings direct trade. Cronut plaid
-  shaman whatever, disrupt ad tofu minim pug dolore forage franzen glossier.
-  Small batch humblebrag ut, artisan health goth edison bulb voluptate lorem
-  dolore chillwave mumblecore iPhone craft beer ex. Enim fingerstache kale
-  chips, VHS succulents butcher meggings woke lo-fi mustache chicharrones chia
-  id consectetur. Gochujang taiyaki incididunt, chartreuse tumblr poutine banjo
-  culpa helvetica eu master cleanse migas umami. Dreamcatcher aliquip hexagon
-  disrupt deep v ugh, banjo truffaut distillery flannel la croix copper mug. Af
-  8-bit tattooed asymmetrical mumblecore swag direct trade iPhone disrupt
-  exercitation mixtape.
+  In this analysis, we use data gathered by 
+  [Garner, Zanic, and coworkers](https://doi.org/10.1016/j.cell.2011.10.037) to 
+  fit a distribution to microtubule catastrophe. We first find that labeling
+  microtubules does not make a significant differenc in catastrophe time. 
+  Next, we find and derive two distributions to fit to microtubule catastrophe:
+  the Gamma Distribution and the 2 Poisson Process Distribution. The latter
+  distribution is created by two Poisson processes occurring after one another.
+  We then use maximum likelihood estimation to estimate parameters for both of
+  these distributions, and we find that the Gamma Distribution is a better
+  fit for microtubule catastrophe. Using the Gamma Distribution, we estimate the
+  number and rate of events under varying concentations of tubulin. 
+  We find that the rate of events causing catastrophe is lower given a 
+  higher rate of polymerization, caused by higher concentrations of 
+  tubulin.
 Summary:  >
-  A short summary of your work goes here. Think "significance statement".
-  Nisi bushwick seitan et authentic aute, laboris blog sed in wayfarers lyft
-  plaid ut. Id aesthetic venmo, palo santo aliqua photo booth blue bottle.
-  Meditation non copper mug lomo glossier kombucha. Cred laboris meditation
-  poke sriracha street art letterpress food truck master cleanse adipisicing.
-  Hashtag affogato chambray vaporware subway tile, kogi helvetica ea tacos sint
-  brooklyn. Williamsburg waistcoat raclette seitan glossier messenger bag
-  dolore ramps, flannel magna nisi hot chicken elit pariatur kale chips.
+  Our analysis can be found at [this link](code). The GitHub repository
+  containing all of our results is located [here](https://https://github.com/alettenb/microtubule_catastrophe).
+  In our analysis, we first use confidence intervals and hypothesis testing
+  to determine that labeled and unlabeled microtubules do not have significantly
+  different distributions. We assume that microtubule is caused by events
+  that each follow a Poisson Process, and
+  we then look at two possible distributions for
+  microtubule catastrophe that follow this story. These two distributions are
+  the Gamma Distribution, where we can have an arbitrary number of Poisson 
+  Processes that all have the same rate, and the 2 Poisson Process Distribution,
+  where we can only have two events, but they can have different rates. We 
+  analytically find the PDF for the 2 Poisson Process Distribution, and we 
+  empirically find an ECDF to verify that the analytical CDF is correct. Then,
+  we use MLE to estimate the parameters for both the Gamma and 2 Poisson Process
+  distributions. Using AIC and Q-Q plots, we find that the Gamma Distribution
+  better characterizes microtubule catastrophe. Using MLE with the Gamma 
+  Distributions and various concentrations of tubulin, we find that
+  faster polymerization leads to a lower rate of events that cause catastrophe.
 Acknowledgments: >
-  Who helped you? Share the love! Valeria Rivera, Destiny Roach, Alberto 
-  Fernandez, Trenton Rowland, Sherlyn Frederick, Mallory Irwin, Jazmyn Cohen,
-  Jaylene Page, Kelsey Hayes, Sonny Wilson, Roy Taylor, Ryleigh Daugherty.
+  * [Garner, Zanic, and coworkers](https://doi.org/10.1016/j.cell.2011.10.037)
+  for generously letting us use their data
+  
+  * Justin Bois and the BE/Bi 103 
+  Teaching Assistants for connecting us with the data and teaching us about the
+  tools we needed to perform the analysis.
