@@ -30,7 +30,7 @@ Abstract: >
   tubulin.
 Summary:  >
   Our analysis can be found at [this link](code). The GitHub repository
-  containing all of our results is located [here](https://https://github.com/alettenb/microtubule_catastrophe).
+  containing all of our results is located [here](https://github.com/alettenb/microtubule_catastrophe).
   In our analysis, we first use confidence intervals and hypothesis testing
   to determine that labeled and unlabeled microtubules do not have significantly
   different distributions. We assume that microtubule is caused by events
@@ -50,7 +50,7 @@ Summary:  >
 Acknowledgments: >
   * [Garner, Zanic, and coworkers](https://doi.org/10.1016/j.cell.2011.10.037)
   for generously letting us use their data
-  
+
   * Justin Bois and the BE/Bi 103 
   Teaching Assistants for connecting us with the data and teaching us about the
   tools we needed to perform the analysis.
